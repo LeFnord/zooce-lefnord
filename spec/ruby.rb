@@ -22,7 +22,7 @@ class Car < ActiveRecord::Base
   scope :available, -> { where(available: true) }
 end
 
-hash = {1 => 'one', 2 => 'two'}
+hash = {1: 'one', 2: 'two'}
 
 2.0.0p0 :001 > ['some']
  => ["some"]

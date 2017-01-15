@@ -1,74 +1,74 @@
 // ruby
 
 
-.meta {
-  &.class {
+.syntax--meta {
+  &.syntax--class {
     font-style: italic;
   }
 }
 
-.support {
-  &.class {
+.syntax--support {
+  &.syntax--class {
     color: @zooce-yellow;
   }
 
-  &.property-name {
+  &.syntax--property-name {
     color: @sand;
   }
 
-  &.function  {
+  &.syntax--function  {
     color: @butter;
 
-    &.any-method {
+    &.syntax--any-method {
       color: @butter;
     }
   }
 }
 
-.entity {
-  &.name.function {
+.syntax--entity {
+  &.syntax--name.syntax--function {
     color: @zooce-yellow;
   }
 
-  &.name.class, &.name.type.class {
+  &.syntax--name.syntax--class, &.syntax--name.syntax--type.syntax--class {
     color: @zooce-yellow;
   }
 
-  &.name.section {
+  &.syntax--name.syntax--section {
     color: @zooce-yellow;
   }
 
-  &.name.tag {
+  &.syntax--name.syntax--tag {
     color: @indigo;
   }
 
-  &.other.attribute-name {
+  &.syntax--other.syntax--attribute-name {
     color: @latte;
 
-    &.id {
+    &.syntax--id {
       color: @fresh-blood;
     }
   }
 }
 
-.meta {
-  &.class {
+.syntax--meta {
+  &.syntax--class {
     color: @butter;
   }
 
-  &.link {
+  &.syntax--link {
     color: @butter;
   }
 
-  &.require {
+  &.syntax--require {
     color: @butter;
   }
 
-  &.selector {
+  &.syntax--selector {
     color: @butter;
   }
 
-  &.separator {
+  &.syntax--separator {
     background-color: @smoke;
     color: @syntax-text-color;
   }

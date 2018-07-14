@@ -53,6 +53,13 @@ atom-text-editor {
   }
 }
 
+.editor {
+  .highlight.highlight-line .region {
+    background-color: @syntax-line-color;
+    z-index: -2;
+  }
+}
+
 atom-text-editor .search-results .syntax--marker .region {
   background-color: transparent;
   border: 2px solid @syntax-result-marker-color;
